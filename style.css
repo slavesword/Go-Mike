@@ -506,6 +506,15 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
+.form-group {
+    display: flex;
+}
+.form-input {
+    width: 180px;
+}
+.form-text {
+    color: #595959;
+}
 
 .scrollToTop {
     width: 40px;
