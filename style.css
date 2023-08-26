@@ -516,10 +516,13 @@ button {
     display: flex;
 }
 .form-input {
-    width: 180px;
+    width: 230px;
 }
 .form-text {
     color: #595959;
+}
+.contact-text p {
+    font-size: 18px;
 }
 
 .scrollToTop {
@@ -674,7 +677,7 @@ a {
 }
 .footer-link div {
     color: #e3e3e3;
-    padding: 15px 0;
+    padding: 12px 0;
 }
 .container {
     max-width: 1000px;
