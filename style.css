@@ -792,6 +792,15 @@ h4 {
 .tc-white {
     color: #c3ceda!important;
 }
+.tc-quote {
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.tc-title {
+    font-size: 36px;
+    line-height: 1.2;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
