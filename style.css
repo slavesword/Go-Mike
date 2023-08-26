@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -666,9 +666,16 @@ a {
 }
 
 .footer-link a {
-    color: #e3e3e3
+    color: #e3e3e3;
 }
-
+.footer-link li {
+    color: #e3e3e3;
+    padding: 5px 0;
+}
+.footer-link div {
+    color: #e3e3e3;
+    padding: 15px 0;
+}
 .container {
     max-width: 1000px;
 }
@@ -716,9 +723,12 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto;
 }
-
+.icon-md {
+    width: 50px;
+    height: 50px;
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -840,19 +850,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta made sign.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta-made-sign-orange.webp");
 }
 
 @media (max-width: 1024px) {
