@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("../img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -121,7 +121,7 @@ a:hover {
 
 .d-bloc .a-btn,
 .d-bloc .navbar a,
-.d-bloc .navbar-brand,
+.d-bloc ,
 .d-bloc a .icon-sm,
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
@@ -139,7 +139,7 @@ a:hover {
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
+.d-bloc :hover,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
@@ -215,7 +215,7 @@ a:hover {
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
-.l-bloc .navbar-brand,
+.l-bloc ,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
@@ -232,8 +232,8 @@ a:hover {
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
+.l-bloc a:hover,
+.l-bloc :hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
@@ -292,23 +292,15 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
+    
 }
 
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
+    width: 214.44px;
 }
 
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
-}
 
-.nav-center .navbar-brand img {
+.nav-center img {
     margin: 0;
 }
 
@@ -353,7 +345,7 @@ a:hover {
 }
 
 .nav-invert .navbar-header,
-.nav-invert .navbar-brand {
+.nav-invert {
     float: right;
     position: relative;
     z-index: 2;
@@ -382,7 +374,7 @@ a:hover {
         width: 100%;
     }
     .nav-center .navbar-header,
-    .nav-center .navbar-brand,
+    .nav-center ,
     .nav-center .nav > li {
         float: none;
         display: inline-block;
@@ -853,19 +845,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+    background-image: url("../img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.webp");
+    background-image: url("../img/lines-h2-bg.webp");
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta made sign.webp");
+    background-image: url("../img/atlanta-made-sign.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta-made-sign-orange.webp");
+    background-image: url("../img/atlanta-made-sign-orange.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1004,10 +996,7 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
-    }
+    
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
