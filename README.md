@@ -1,5 +1,5 @@
 # openclassrooms Go-Mike project
-this is implementation of my ohmyfood project with openclassrooms as part of my web developer diploma study.
+this is implementation of my SEO project with Openclassrooms as part of my web developer diploma study.
 
 the site can be viewed at: 
 
